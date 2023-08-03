@@ -1,0 +1,50 @@
+.Banner{
+    height: 46vh;
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+}
+.bannerText{
+    height: 100%;
+    width: 50%;
+    color: rgba(218, 0, 55, 0.8);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-style:italic;
+    padding-top: 80px;
+    padding-left: 20px;
+    line-height: 40px;
+}
+.bannerBtn{
+    color: white;
+    background-color: rgba(218, 0, 55, 0.8);
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+    font-style: normal;
+}
+.bannerimg{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.bannerimg img{
+    height: 460px;
+    position: absolute;
+    top: -41px;
+    right: 156px;
+}
+@media (max-width: 779px) {
+    .bannerimg{
+        display: none;
+    }
+    .bannerText{
+        width: 100%;
+    }
+  }
